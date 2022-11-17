@@ -1,8 +1,10 @@
 import React from 'react';
+import Appointment from '../appointment/Appointment';
 import Banner from '../Banner/Banner';
-import InfoCards from '../infocards/InfoCards';
+import InfoCards from '../infocards/InfoCards'
 import OurServices from '../our services/OurServices';
-import Portfolio from './portfolio/Portfolio';
+import Portfolio from '../portfolio/Portfolio';
+
 
 const Home = () => {
     return (
@@ -11,6 +13,7 @@ const Home = () => {
             <InfoCards></InfoCards>
             <OurServices></OurServices>
             <Portfolio></Portfolio>
+            <Appointment></Appointment>
 
         </div>
 

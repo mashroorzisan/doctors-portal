@@ -5,7 +5,7 @@ import PrimaryButton from '../../../components/primarybutton/PrimaryButton';
 
 const Appointment = () => {
     return (
-        <section className='lg:mt-32 rounded-lg'
+        <section className='lg:mt-32 rounded-lg lg:p-0  p-10'
             style={{
                 background: `url(${appointment})`
             }}>
@@ -15,7 +15,7 @@ const Appointment = () => {
                     <div className='text-white'>
                         <h1 className="text-5xl font-bold">Box Office News!</h1>
                         <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <PrimaryButton></PrimaryButton>
+                        <PrimaryButton>Appoint Now</PrimaryButton>
                     </div>
                 </div>
             </div>

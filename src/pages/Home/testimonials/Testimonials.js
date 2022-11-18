@@ -35,7 +35,7 @@ const Testimonials = () => {
                     <h3 className='font-bold text-3xl text-start text-transparent bg-clip-text bg-gradient-to-t from-secondary to-primary mb-5'>Testimonial</h3>
                     <h1 className='font-semibold text-start text-4xl mb-5'>What Our Patients Says</h1>
                 </div>
-                <img src={colon} className='w-48' alt="" />
+                <img src={colon} className='w-32 g:w-48' alt="" />
             </div>
             <div className='p-10 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3'>
                 {

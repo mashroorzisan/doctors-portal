@@ -1,7 +1,7 @@
 import React from 'react';
 
 const InfoCard = ({ card }) => {
-    const { name, des, bgClass, icon, to, id } = card;
+    const { name, des, bgClass, icon, to } = card;
 
     return (
         <div className={`card w-96  lg:flex-row  bg-gradient-to-r from-${bgClass} to-${to} shadow-xl text-white p-10 my-10 mx-auto`}>

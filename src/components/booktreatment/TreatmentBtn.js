@@ -25,7 +25,10 @@ const TreatmentBtn = ({ treatment, selectDate }) => {
                         <input disabled type="text" value={date} className='input  w-full input-bordered' />
                         <select name='slot' className='select select-bordered w-full'>
                             {
-                                slots.map(slot => <option value={slot}>{slot}</option>)
+                                slots.map((slot, i) => <option
+                                    key={i}
+                                    value={slot}
+                                >{slot}</option>)
                             }
                         </select>
                         <input name='name' type="text" placeholder='Full Name' className='input  w-full input-bordered' />

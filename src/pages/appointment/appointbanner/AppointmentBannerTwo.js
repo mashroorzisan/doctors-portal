@@ -2,18 +2,19 @@ import React from 'react';
 import { DayPicker } from 'react-day-picker';
 import chair from '../../../assets/images/chair.png'
 
-const AppointBanner = ({ selectDate, setSelectDate }) => {
+const AppointBannerTwo = ({ days, setDays }) => {
     return (
         <div className="hero ">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <div>
-                    <h1 className='text-5xl'>Banner-1 <br />(SingleDate)</h1>
+                    <h1 className='text-5xl'>Banner-2 <br />(MultipleDates)</h1>
                 </div>
                 <div className='mr-6'>
                     <DayPicker
-                        mode='single'
-                        selected={selectDate}
-                        onSelect={setSelectDate}
+                        mode='multiple'
+                        min={1}
+                        selected={days}
+                        onSelect={setDays}
                     />
                 </div>
             </div>
@@ -21,4 +22,4 @@ const AppointBanner = ({ selectDate, setSelectDate }) => {
     );
 };
 
-export default AppointBanner;
+export default AppointBannerTwo;
